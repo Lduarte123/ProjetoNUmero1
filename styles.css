@@ -1,0 +1,114 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body{
+    background-color: #f5f5f5;
+}
+li{
+    list-style: none;
+ 
+}
+.header{
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+    color: #fff; 
+    
+}
+.header a{
+    color: #fff;
+    text-decoration: none;
+    }
+.header a:hover{
+    color: #ccc;
+    }
+.menu{
+    display: inline;
+    text-decoration: none;
+    padding: 10px;
+}
+.logo .logo{
+    justify-content: left;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;   
+}
+.logo{
+    text-decoration: none;    
+}
+.icon-menu .icon-menu{
+    justify-content:center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+}
+.barramenu{
+    display: flex;
+}
+.barra-menu{
+    display: flex;
+    gap: 5px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    position: static;
+    top: 0%;
+    left: 0%;
+
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-list, h1{
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+
+}
+.banner{
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    border-radius: 10px;
+    box-shadow: #333;
+    margin: 20px;
+}
+h1{
+    font-size: 40px;
+    color: #333;
+}
+.serviços-list{
+   display: inline-block;
+   align-items: center;
+   justify-content: center;
+}
+.serviços{
+    height: 70vh;
+    width: 70vh;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+h2{
+    font-size: 30px;
+    color:  #333;
+}
+img{
+    box-shadow: 5px #333;
+    border-radius: 10px ;
+}
+
+
+
+
+
